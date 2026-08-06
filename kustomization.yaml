@@ -9,15 +9,15 @@ generatorOptions:
 configMapGenerator:
   - name: opa-policies
     files:
-      - policies/aap/aap_policy_examples/allowed_false.rego
-      - policies/aap/aap_policy_examples/extra_vars_allowlist.rego
-      - policies/aap/aap_policy_examples/extra_vars_validation.rego
-      - policies/aap/aap_policy_examples/github_repo_validation.rego
-      - policies/aap/aap_policy_examples/global_credential_allowed_false.rego
-      - policies/aap/aap_policy_examples/jt_naming_validation.rego
-      - policies/aap/aap_policy_examples/maintenance_window.rego
-      - policies/aap/aap_policy_examples/mismatch_prefix_allowed_false.rego
-      - policies/aap/aap_policy_examples/project_scm_branch.rego
-      - policies/aap/aap_policy_examples/restrict_inv_use_to_org.rego
-      - policies/aap/aap_policy_examples/superuser_allowed_false.rego
-      - policies/aap/aap_policy_examples/team_based_extra_vars_restriction.rego
+      - policies/aap_policy_examples/allowed_false.rego
+      - policies/aap_policy_examples/extra_vars_allowlist.rego
+      - policies/aap_policy_examples/extra_vars_validation.rego
+      - policies/aap_policy_examples/github_repo_validation.rego
+      - policies/aap_policy_examples/global_credential_allowed_false.rego
+      - policies/aap_policy_examples/jt_naming_validation.rego
+      - policies/aap_policy_examples/maintenance_window.rego
+      - policies/aap_policy_examples/mismatch_prefix_allowed_false.rego
+      - policies/aap_policy_examples/project_scm_branch.rego
+      - policies/aap_policy_examples/restrict_inv_use_to_org.rego
+      - policies/aap_policy_examples/superuser_allowed_false.rego
+      - policies/aap_policy_examples/team_based_extra_vars_restriction.rego

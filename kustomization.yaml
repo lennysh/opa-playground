@@ -9,15 +9,15 @@ generatorOptions:
 configMapGenerator:
   - name: opa-policies
     files:
-      - policies/examples/allowed_false.rego
-      - policies/examples/extra_vars_allowlist.rego
-      - policies/examples/extra_vars_validation.rego
-      - policies/examples/github_repo_validation.rego
-      - policies/examples/global_credential_allowed_false.rego
-      - policies/examples/jt_naming_validation.rego
-      - policies/examples/maintenance_window.rego
-      - policies/examples/mismatch_prefix_allowed_false.rego
-      - policies/examples/project_scm_branch.rego
-      - policies/examples/restrict_inv_use_to_org.rego
-      - policies/examples/superuser_allowed_false.rego
-      - policies/examples/team_based_extra_vars_restriction.rego
+      - policies/aap/examples/allowed_false.rego
+      - policies/aap/examples/extra_vars_allowlist.rego
+      - policies/aap/examples/extra_vars_validation.rego
+      - policies/aap/examples/github_repo_validation.rego
+      - policies/aap/examples/global_credential_allowed_false.rego
+      - policies/aap/examples/jt_naming_validation.rego
+      - policies/aap/examples/maintenance_window.rego
+      - policies/aap/examples/mismatch_prefix_allowed_false.rego
+      - policies/aap/examples/project_scm_branch.rego
+      - policies/aap/examples/restrict_inv_use_to_org.rego
+      - policies/aap/examples/superuser_allowed_false.rego
+      - policies/aap/examples/team_based_extra_vars_restriction.rego
